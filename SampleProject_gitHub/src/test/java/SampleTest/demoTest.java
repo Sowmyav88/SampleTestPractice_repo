@@ -5,11 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class demo {
+public class demoTest{
 	
 	@Test
-	public void sampleDemo()
-	{
+	public void sampleDemo()	{
 		WebDriver driver = new ChromeDriver();
 		Reporter.log("Demo is launched",true);
 	}
